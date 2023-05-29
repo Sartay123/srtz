@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Dekko');
+
+
+h1, footer p, figcaption, figure, video {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+figure pre, nav#mainmenu {
+	text-align: left;
+}
+
+body {
+	font-family: 'bahnschrift', cursive, Arial, Verdana, sans-serif;
+}
+
+figcaption {
+	font-family: cursive;
+	font-family: 'Dekko', cursive;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2, h3, header nav#mainmenu {
+	font-size: 1.5em
+}
+
+
+figcaption {
+	font-weight: bold;
+}
+
+h1 {
+	font-variant: normal;
+	letter-spacing: 0px;
+}
+
+
+p {
+	line-height: 1.5em;
+}
+
+a {
+	text-transform: capitalize;
+}
+
+h1 {
+	text-shadow: gray 5px 7px 3px;
+}
+
+p {
+	text-indent: 1em
+}
+
+p:first-of-type {
+	text-indent: 0
+}
+
+u {
+	font-weight: bold;
+	text-decoration-line: none;
+}
+
+h2 {
+	color: orange;
+}
+
+q {
+	color: red;
+	font-size: 2em;
+	text-align: center;
+}
+
+pre {
+	background-color: black;
+	color: white;
+}
+
+figure, video {
+	background-color: black;
+
+
+}
+
+footer {
+	background-color: #FFD580;
+	opacity: 0.9;
+}
+
+html {
+	background-color: #ADD8E6;
+	background-image: url(https://i.pinimg.com/736x/88/d5/79/88d579cf5f9bb4d10784045ac03a32f4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+
+	background-color: #ebf2b1;
+	width: 80%;
+	max-width: 1000px;
+	min-width: 500px;
+	padding: 20px 20px 20px 20px;
+	margin: 20px auto;
+	border: 0px dotted gray;
+	box-shadow: 0 0 30px gray;
+}
+
+body, header {
+	border-radius: 20px 20px 0 0;
+}
+
+h1 {
+	font-family: 'bahnschrift', sans-serif;
+}
+
+h1 {
+	color: orange;
+	margin: 10px 0 20px 0;
+	padding: 3px 60px;
+	opacity: 0.8;
+}
+
+
+h3 {
+	padding: 10px;
+	margin: 0;
+}
+
+aside h2 {
+	float: left;
+	margin: 40px 5px 0 0;
+	transform: rotate(-90deg);
+}
+
+header nav#mainmenu a, header nav#mainmenu b {
+	padding: 0 30px 0 0;
+}
+
+header nav#mainmenu a:link {
+	color: white;
+	text-decoration: underline;
+}
+
+mark {
+	color: orange;
+	background-color: white;
+	font-family: cursive;
+}
+
+.crop {
+	width: 50%;
+	height: 10%;
+	object-fit: cover;
+}
+
+.cropped {
+	width: 50%;
+	height: 20%;
+	object-fit: cover;
+}
+
+
+
+header nav#mainmenu a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+nav#pagemenu a {
+	text-decoration: none;
+	padding: 3px;
+}
+
+nav#pagemenu a:link, header nav#pagemenu a:visited {
+	color: black;
+}
+
+nav#pagemenu a:hover, header nav#pagemenu a:focus {
+	background-color: gray;
+	transition: all 0.5s ease-in;
+}
+
+
+nav#skip a {
+	position: absolute;
+	left: -9999px
+}
+
+nav#skip a:focus {
+	position: static;
+	background-color: white
+}
+
+
+ol {
+	counter-reset: li;
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 10px;
+}
+
+ol>li {
+	position: relative;
+	margin: 0 0 6px 2em;
+	padding: 4px 8px;
+	list-style: none;
+}
+
+ol>li:before {
+	content: counter(li);
+	text-decoration: underline;
+	counter-increment: li;
+	position: absolute;
+	top: 0px;
+	left: -2em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 2em;
+	margin-right: 8px;
+	padding: 4px;
+	color: #fff;
+	background: #333;
+	font-weight: bold;
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+}
+
+li ol,
+li ul {
+	margin-top: 6px;
+}
+
+ol ol li:last-child {
+	margin-bottom: 0;
+}
+
+
+details p {
+	line-height: 1em;
+	font-size: 0.8em;
+}
+
+summary {
+	font-size: 0.8em;
+}
+
+
+
+pre {
+	overflow: auto;
+}
+
+
+figcaption {
+	color: white;
+}
+
+img {
+	width: 95%;
+	height: auto;
+	border-radius: 20px;
+	margin: 0;
+
+}
+
+figure, video {
+	margin: 10px auto;
+	border: 2px solid gray;
+	padding: 10px;
+	border-radius: 20px;
+	width: 90%;
+	max-width: 700px;
+	background-color: black;
+	display: block;
+}
+
+figure {
+	break-inside: avoid;
+}
+
+
+table, th, td{
+	border: 1px solid black;
+}
+
+th, td {
+	text-align: center
+}
+
+th {
+	background-color: #D3D3D3;
+	color: black;
+}
+
+td{
+	background-color: white;
+	color: black;
+}
+
+table {
+	width: 300px;
+}
+
+
+div#resolutions img, div#form img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+
+div#resolutions img, div#form img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+div#introduction, div#table, div#resolutions, div#video, div#form {
+	padding: 30px 40px;
+	background-color: white;
+	margin: 5px 40px 40px auto;
+	border-collapse: collapse;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	background-size: auto /*(default)*/;
+	width: 70%;
+	position: relative;
+	min-height: 150px;
+	opacity: 0.8;
+}
+
+.columns, #introduction, #table, #resolutions, #video, #form {
+	column-count: 2;
+	column-gap: 30px;
+}
+
+
+aside {
+	float: right;
+	margin: 0px 10px 10px 20px;
+	background-color: #e3e0d3;
+	border: 4px solid black;
+	background-image: none;
+	background-position: top, bottom;
+	background-repeat: repeat-x, repeat-x;
+	transform: rotate(3deg);
+	background-size: 20px 19px;
+	padding: 20px 10px 30px 10px;
+}
+
+section {
+	width: 100%
+}
+
+nav#mainmenu {
+	background-color: #FFD580;
+	width: 400px;
+	opacity: 0.8;
+}
+
+
+hr {
+	border: 1px dashed #c5b59e;
+	margin: 20px 0;
+}
+
+header {
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 -20px -20px -20px;
+	padding: 10px 0 0 0;
+	border-bottom: 3px solid black;
+}
+
+body {
+	background-image: url(https://img.freepik.com/free-vector/hand-drawn-colorful-science-education-wallpaper_23-2148489183.jpg?w=2000);
+}
+
+header nav#mainmenu {
+	color: #cac8bc;
+	padding: 10px;
+	border-radius: 0 10px 10px 0;
+	margin: 0;
+}
+
+main {
+	padding-top: 20px;
+}
+
+.hidden, nav#skip h2 {
+	position: absolute;
+	left: -9999px;
+}
+
+
+fieldset {
+	border-radius: 5px;
+	width: 70%;
+	min-width: 450px;
+	background-color: #cac8bc;
+	margin-bottom: 10px;
+}
+
+i {
+  color: red;
+  padding: 4px;
+  font-family: Calibri Light;
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 1000px) {
+	article {
+		column-count: 2;
+		column-gap: 30px;
+	}
+
+	aside h2 {
+		float: none;
+		margin: 20px 5px 0 0;
+		transform: rotate(0deg);
+	}
+
+	aside {
+		float: none
+	}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+	.columns, #introduction {
+		column-count: 1;
+		column-gap: 0;
+	}
+
+	aside {
+		float: none;
+		width: 90%;
+		box-sizing: border-box;
+		margin: 0px;
+	}
+
+	div#introduction, aside {
+		transform: rotate(0);
+	}
+
+	body {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	div#introduction article h2 {
+		position: static;
+		transform: rotate(0deg);
+		margin: 10px 0;
+		box-sizing: border-box;
+		width: 90%;
+	}
+
+	div#introduction {
+		padding-left: 10px;
+		margin: 0;
+		width: 100%;
+		box-sizing: border-box;
+		min-width: initial;
+		max-width: initial;
+	}
+
+	header {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+
+@media print {
+
+	@page {
+		margin: 2cm;
+	}
+
+	html {
+
+		background: white;
+	}
+
+	header, main, article, footer, figure {
+		margin: 0;
+		padding: 0;
+		width: 100%
+	}
+
+	h1 {
+		text-shadow: none;
+		margin: 0.5cm;
+		transform: rotate(0);
+		font-size: 1cm;
+	}
+
+	h2 {
+		margin: 5px;
+	}
+
+	* {
+		border: none !important;
+		color: black !important;
+
+	}
+
+	body {
+		width: 100%;
+		font-family: 'Times New Roman', Times, serif;
+		background: white;
+		min-width: initial;
+		max-width: initial;
+		box-shadow: initial;
+		padding: 0;
+		margin: 0;
+	}
+
+	nav {
+		display: none
+	}
+
+	a:after {
+		content: " ("attr(href) ")";
+	}
+
+
+	aside {
+		float: right;
+		width: 8cm;
+		margin: 0 0 0 10px;
+	}
+
+	div#introduction, aside {
+		transform: rotate(0);
+	}
+
+	div#introduction {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	figure img {
+		max-width: 10cm
+	}
+
+	video, audio {display:none}
+	textarea, legend {display:none}
+	
+}
